@@ -42,9 +42,11 @@ body {
 }
 
 .hero {
-    background: url('https://vitalite-shop-web.pages.dev/images/hero-section-1.jpg');
-    background-size: cover;
-    background-position: center;
+    background-color: #e9dccc;
+    background-image: url('https://vitalite-shop-web.pages.dev/images/hero-section-1.png');
+    background-size: 50%!important;
+    background-repeat: no-repeat!important;
+    background-position: center 140px!important;
     padding: 100px 0;
     position: relative;
 }
@@ -59,23 +61,24 @@ body {
     /* background-color: rgba(255, 255, 255, 0.8); */
 }
 
+
 .hero-content {
     position: relative;
     z-index: 2;
 }
 
 .hero h1 {
-    color: white;
-    text-shadow: -3px -3px 0 #45875d, 3px -3px 0 #45875d, -3px 3px 0 #45875d, 3px 3px 0 #45875d;
+    color: #0d6201;
+    /* text-shadow: -3px -3px 0 #45875d, 3px -3px 0 #45875d, -3px 3px 0 #45875d, 3px 3px 0 #45875d; */
 }
 
 .hero .text-primary {
-    color: white!important;
-    text-shadow: -3px -3px 0 #45875d, 3px -3px 0 #45875d, -3px 3px 0 #45875d, 3px 3px 0 #45875d;
+    color: #0d6201!important;
+    /* text-shadow: -3px -3px 0 #45875d, 3px -3px 0 #45875d, -3px 3px 0 #45875d, 3px 3px 0 #45875d; */
 }
 
 .hero .lead {
-    color: rgb(149, 202, 168)!important;
+    color: #0d6201!important;
 }
 
 .navbar {
