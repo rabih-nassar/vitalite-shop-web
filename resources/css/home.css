@@ -43,11 +43,12 @@ body {
 
 .hero {
     background-color: #e9dccc;
-    background-image: url('https://vitalite-shop-web.pages.dev/images/hero-section-1.png');
-    background-size: 50%!important;
+    background-image: url('../images/hero-section-1.png');
+    background-size: 800px!important;
     background-repeat: no-repeat!important;
-    background-position: center 140px!important;
-    padding: 100px 0;
+    background-position: 75% 10px!important;
+    padding-top: 80px;
+    padding-bottom: 30px;
     position: relative;
 }
 
