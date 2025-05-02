@@ -43,24 +43,32 @@ body {
 
 .hero {
     background-color: #e9dccc;
-    background-image: url('../images/hero-section-1.png');
-    background-size: 800px!important;
-    background-repeat: no-repeat!important;
-    background-position: 75% 10px!important;
-    padding-top: 80px;
-    padding-bottom: 30px;
+    padding: 100px 0;
     position: relative;
 }
 
-.hero::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    /* background-color: rgba(255, 255, 255, 0.8); */
+.hero-image {
+    position: relative;
+    z-index: 1;
+    max-width: 200%;
+    height: auto;
 }
+
+@media (max-width: 992px) {
+    .hero-image {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-image {
+        margin-top: 20px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 
 
 .hero-content {
